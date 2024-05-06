@@ -1,0 +1,30 @@
+body {
+    font-family: 'roboto';
+}
+
+
+.header{
+    display:flex;
+    flex-direction: row;
+    
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+h1{
+    font-size:24px;
+    color:#f9faf8;
+    
+}
+
+.right-side{
+    display:flex;
+    flex-direction:row;
+    /*padding-right: 80px;*/
+    font-size:18px;
+    color:#e5e7eb;
+    
+}
