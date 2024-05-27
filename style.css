@@ -14,7 +14,36 @@ body {
     
 }
 
+.hero{
+    display:flex;
+    background-color: #1f2937;
+    padding:4px 96px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+
+.hero-text{
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+.left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    padding:0;
+    margin:0;
+}
+
+.logo{
     font-size:24px;
     color:#f9faf8;
     
@@ -27,4 +56,22 @@ h1{
     font-size:18px;
     color:#e5e7eb;
     
+}
+
+.button {
+    background-color: #20DDD2;
+    width: 80px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #20DDD2;
+    transition: transform .2s;
+    transition-delay: 0.05s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: transform .2s;
+    transition-delay: 0.05s;
 }
