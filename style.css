@@ -1,5 +1,9 @@
 body {
     font-family: 'roboto';
+   /* display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;*/
 }
 
 
@@ -109,4 +113,21 @@ h1{
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+
+.fourth{
+    background-color: #3882f6;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items:center ;
+    width: 700px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.fRight{
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 5px;
 }
