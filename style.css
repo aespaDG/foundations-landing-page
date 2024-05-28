@@ -95,6 +95,18 @@ h1{
     
 }
 
-img.info{
-    background-color: #3882f6;
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style:italic;
+    max-width: 500px;
+    
+    
+}
+
+.third{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
