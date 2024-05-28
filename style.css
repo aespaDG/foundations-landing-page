@@ -45,7 +45,7 @@ a{
 h1{
     color:#f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     padding:0;
     margin:0;
 }
@@ -68,4 +68,33 @@ h1{
 .right{
     display:flex;
     margin-right:300px;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-text{
+    max-width:200px;
+}
+
+.inf-head{
+    display:flex;
+    justify-content:center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.second{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+img.info{
+    background-color: #3882f6;
 }
